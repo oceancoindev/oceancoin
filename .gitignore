@@ -1,0 +1,34 @@
+src/*.exe
+src/oceancoin
+src/oceancoind
+src/test_oceancoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.oceancoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+oceancoin-qt
+Oceancoin-Qt.app
+
+# Unit-tests
+Makefile.test
+oceancoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
